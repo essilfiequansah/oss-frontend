@@ -1,9 +1,10 @@
 import './App.css';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <div>
-      <h1>Mentor Connect</h1>
+    <div className="max-w-5xl mx-auto">
+      <Homepage/>
     </div>
   );
 }

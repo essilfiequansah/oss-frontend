@@ -4,6 +4,10 @@ module.exports = {
     "./node_modules/flowbite/**/*.js",
   ],
   theme: {
+    fontFamily: {
+      sans: ['Quicksand', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
     extend: {},
   },
   plugins: [
